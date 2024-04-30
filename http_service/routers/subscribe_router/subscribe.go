@@ -22,8 +22,8 @@ func Subscribe(c *gin.Context, topic string) {
 	}
 	defer conn.Close()
 
-	suber := pubsub.Agent.Subscribe(topic)
-	defer pubsub.Agent.Unsubscribe(suber)
+	suber,cancel := pubsub.Agent.Subscribe(topic)
+	defer cancel(pubsub.Agent,suber)
 
 	// Send data to front-end
 	for {
