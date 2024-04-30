@@ -17,7 +17,7 @@ func RegisterRoutes(router *gin.RouterGroup) {
 // @Description # 数据订阅接口
 // @Description ## 使用方法
 // @Description ```javascript
-// @Description var ws = new WebSocket("ws://10.30.24.115:8060/api/v1/subscribe/topic");
+// @Description var ws = new WebSocket("ws://127.0.01:8060/api/v1/subscribe/topic");
 // @Description
 // @Description ws.onmessage = function(event) {
 // @Description   console.log(event.data);

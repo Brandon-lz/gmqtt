@@ -1,8 +1,25 @@
 {
+    "schemes": [
+        "http"
+    ],
     "swagger": "2.0",
     "info": {
-        "contact": {}
+        "description": "go subpub service",
+        "title": "Gin Swagger Example API",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "API Support",
+            "url": "http://www.swagger.io/support",
+            "email": "support@swagger.io"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "2.0"
     },
+    "host": "localhost:8080",
+    "basePath": "/",
     "paths": {
         "/api/v1/": {
             "get": {
@@ -95,7 +112,7 @@
         },
         "/api/v1/subscribe/{topic}": {
             "get": {
-                "description": "# 数据订阅接口\n## 使用方法\n```javascript\nvar ws = new WebSocket(\"ws://10.30.24.115:8060/api/v1/data-out/topic\");\n\nws.onmessage = function(event) {\nconsole.log(event.data);\n};\n\nws.onopen = function() {\nconsole.log(\"Connection established\");\n};\n\nws.onclose = function() {\nconsole.log(\"Connection closed\");\n};\n```",
+                "description": "# 数据订阅接口\n## 使用方法\n```javascript\nvar ws = new WebSocket(\"ws://127.0.01:8060/api/v1/subscribe/topic\");\n\nws.onmessage = function(event) {\nconsole.log(event.data);\n};\n\nws.onopen = function() {\nconsole.log(\"Connection established\");\n};\n\nws.onclose = function() {\nconsole.log(\"Connection closed\");\n};\n```",
                 "consumes": [
                     "application/json"
                 ],

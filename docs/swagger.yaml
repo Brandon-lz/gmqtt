@@ -1,3 +1,4 @@
+basePath: /
 definitions:
   core.ApiOKResponse:
     properties:
@@ -16,8 +17,19 @@ definitions:
         example: 欢迎使用OPC-UA OpenAPI
         type: string
     type: object
+host: localhost:8080
 info:
-  contact: {}
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: go subpub service
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Gin Swagger Example API
+  version: "2.0"
 paths:
   /api/v1/:
     get:
@@ -84,7 +96,7 @@ paths:
         # 数据订阅接口
         ## 使用方法
         ```javascript
-        var ws = new WebSocket("ws://10.30.24.115:8060/api/v1/data-out/topic");
+        var ws = new WebSocket("ws://127.0.01:8060/api/v1/subscribe/topic");
 
         ws.onmessage = function(event) {
         console.log(event.data);
@@ -123,4 +135,6 @@ paths:
       summary: healthCheck 路由
       tags:
       - default
+schemes:
+- http
 swagger: "2.0"

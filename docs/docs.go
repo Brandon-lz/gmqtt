@@ -9,7 +9,16 @@ const docTemplate = `{
     "info": {
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
-        "contact": {},
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "API Support",
+            "url": "http://www.swagger.io/support",
+            "email": "support@swagger.io"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
         "version": "{{.Version}}"
     },
     "host": "{{.Host}}",
@@ -106,7 +115,7 @@ const docTemplate = `{
         },
         "/api/v1/subscribe/{topic}": {
             "get": {
-                "description": "# 数据订阅接口\n## 使用方法\n` + "`" + `` + "`" + `` + "`" + `javascript\nvar ws = new WebSocket(\"ws://10.30.24.115:8060/api/v1/data-out/topic\");\n\nws.onmessage = function(event) {\nconsole.log(event.data);\n};\n\nws.onopen = function() {\nconsole.log(\"Connection established\");\n};\n\nws.onclose = function() {\nconsole.log(\"Connection closed\");\n};\n` + "`" + `` + "`" + `` + "`" + `",
+                "description": "# 数据订阅接口\n## 使用方法\n` + "`" + `` + "`" + `` + "`" + `javascript\nvar ws = new WebSocket(\"ws://127.0.01:8060/api/v1/subscribe/topic\");\n\nws.onmessage = function(event) {\nconsole.log(event.data);\n};\n\nws.onopen = function() {\nconsole.log(\"Connection established\");\n};\n\nws.onclose = function() {\nconsole.log(\"Connection closed\");\n};\n` + "`" + `` + "`" + `` + "`" + `",
                 "consumes": [
                     "application/json"
                 ],
@@ -182,12 +191,12 @@ const docTemplate = `{
 
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
-	Version:          "",
-	Host:             "",
-	BasePath:         "",
-	Schemes:          []string{},
-	Title:            "",
-	Description:      "",
+	Version:          "2.0",
+	Host:             "localhost:8080",
+	BasePath:         "/",
+	Schemes:          []string{"http"},
+	Title:            "Gin Swagger Example API",
+	Description:      "go subpub service",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 	LeftDelim:        "{{",

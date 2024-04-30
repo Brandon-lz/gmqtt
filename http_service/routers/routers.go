@@ -1,13 +1,6 @@
 package routers
 
 import (
-	// alicerouters "github.com/Brandon-lz/gmqtt/http_service/routers/alice_routers"
-	// noderouters "github.com/Brandon-lz/gmqtt/http_service/routers/node_routers"
-	// smithrouters "github.com/Brandon-lz/gmqtt/http_service/routers/smith_routers"
-	// webhookrouters "github.com/Brandon-lz/gmqtt/http_service/routers/webhook_routers"
-
-	// "log"
-
 	publishrouter "github.com/Brandon-lz/gmqtt/http_service/routers/publish_router"
 	subscriberouter "github.com/Brandon-lz/gmqtt/http_service/routers/subscribe_router"
 	"github.com/gin-gonic/gin"
@@ -19,10 +12,6 @@ func RegisterRoutes(router *gin.RouterGroup) {
 
 	publishrouter.RegisterRoutes(router)
 	subscriberouter.RegisterRoutes(router)
-	// noderouters.RegisterRoutes(router)
-	// webhookrouters.RegisterRoutes(router)
-	// smithrouters.RegisterRoutes(router)
-	// alicerouters.RegisterRoutes(router)
 }
 
 // 根路由
