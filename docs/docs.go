@@ -75,7 +75,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/publish/:topic": {
+        "/api/v1/publish/{topic}": {
             "post": {
                 "description": "Publish a message to a topic",
                 "produces": [
@@ -94,13 +94,11 @@ const docTemplate = `{
                         "required": true
                     },
                     {
+                        "type": "string",
                         "description": "Message to publish",
                         "name": "message",
-                        "in": "body",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
+                        "in": "query",
+                        "required": true
                     }
                 ],
                 "responses": {
@@ -192,7 +190,7 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "2.0",
-	Host:             "localhost:8080",
+	Host:             "localhost:8060",
 	BasePath:         "/",
 	Schemes:          []string{"http"},
 	Title:            "Gin Swagger Example API",

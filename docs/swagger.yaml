@@ -17,7 +17,7 @@ definitions:
         example: 欢迎使用OPC-UA OpenAPI
         type: string
     type: object
-host: localhost:8080
+host: localhost:8060
 info:
   contact:
     email: support@swagger.io
@@ -63,7 +63,7 @@ paths:
       summary: ping 路由
       tags:
       - default
-  /api/v1/publish/:topic:
+  /api/v1/publish/{topic}:
     post:
       description: Publish a message to a topic
       parameters:
@@ -73,11 +73,10 @@ paths:
         required: true
         type: string
       - description: Message to publish
-        in: body
+        in: query
         name: message
         required: true
-        schema:
-          type: string
+        type: string
       produces:
       - application/json
       responses:

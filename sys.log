@@ -48,3 +48,130 @@
 {"time":"2024-04-30T02:35:33.174075512Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":5467,"latency":"201.76µs","error_message":""}
 {"time":"2024-04-30T02:36:20.97527525Z","level":"INFO","msg":"Shutdown Server ..."}
 {"time":"2024-04-30T02:36:20.97576352Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:43:23.181382504Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:43:34.056466247Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/","status_code":200,"body_size":25,"latency":"162.197µs","error_message":""}
+{"time":"2024-04-30T02:43:34.224192532Z","level":"ERROR","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/favicon.ico","status_code":404,"body_size":-1,"latency":"36.499µs","error_message":""}
+{"time":"2024-04-30T02:43:37.962134842Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3760,"latency":"939.18µs","error_message":""}
+{"time":"2024-04-30T02:43:38.006505513Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.128577ms","error_message":""}
+{"time":"2024-04-30T02:43:38.008047181Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"3.197433ms","error_message":""}
+{"time":"2024-04-30T02:43:38.054151217Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.695165ms","error_message":""}
+{"time":"2024-04-30T02:43:38.268893424Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"91.698µs","error_message":""}
+{"time":"2024-04-30T02:43:55.882414266Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:43:55.884877415Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:44:03.859705777Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:44:08.153047097Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3759,"latency":"4.105516ms","error_message":""}
+{"time":"2024-04-30T02:44:08.21355175Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.230275ms","error_message":""}
+{"time":"2024-04-30T02:44:08.302340221Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"5.069595ms","error_message":""}
+{"time":"2024-04-30T02:44:08.439301399Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.819463ms","error_message":""}
+{"time":"2024-04-30T02:44:08.502592494Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"555.888µs","error_message":""}
+{"time":"2024-04-30T02:44:08.564589417Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":5855,"latency":"893.682µs","error_message":""}
+{"time":"2024-04-30T02:44:22.514686237Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":304,"body_size":-1,"latency":"71.499µs","error_message":""}
+{"time":"2024-04-30T02:44:22.820005688Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js.map","status_code":200,"body_size":493648,"latency":"2.748944ms","error_message":""}
+{"time":"2024-04-30T02:44:22.829605791Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js.map","status_code":200,"body_size":1540291,"latency":"12.799038ms","error_message":""}
+{"time":"2024-04-30T02:44:22.862984308Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css.map","status_code":200,"body_size":251179,"latency":"1.42877ms","error_message":""}
+{"time":"2024-04-30T02:44:25.595651922Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:45:24.721567202Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:45:24.723972155Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:45:33.746027345Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:45:41.405169242Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:45:46.629806976Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3759,"latency":"690.486µs","error_message":""}
+{"time":"2024-04-30T02:45:46.673609712Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"948.081µs","error_message":""}
+{"time":"2024-04-30T02:45:46.798528651Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css.map","status_code":200,"body_size":251179,"latency":"1.789765ms","error_message":""}
+{"time":"2024-04-30T02:45:46.958529599Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"2.924843ms","error_message":""}
+{"time":"2024-04-30T02:45:47.241120432Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js.map","status_code":200,"body_size":1540291,"latency":"6.677468ms","error_message":""}
+{"time":"2024-04-30T02:45:47.389019019Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"2.284855ms","error_message":""}
+{"time":"2024-04-30T02:45:47.525458431Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"411.591µs","error_message":""}
+{"time":"2024-04-30T02:45:47.545523836Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js.map","status_code":200,"body_size":493648,"latency":"2.54855ms","error_message":""}
+{"time":"2024-04-30T02:45:47.588781784Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":5855,"latency":"851.883µs","error_message":""}
+{"time":"2024-04-30T02:45:54.440003629Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"41.399µs","error_message":""}
+{"time":"2024-04-30T02:46:02.171322422Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:46:04.18631819Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"42.199µs","error_message":""}
+{"time":"2024-04-30T02:47:00.30808343Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:51:22.419129254Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:51:22.422009803Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:51:26.661684703Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:52:02.292055355Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:52:11.243606781Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:52:24.79418177Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"37.899µs","error_message":""}
+{"time":"2024-04-30T02:52:52.426110204Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:52:52.431031701Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:52:57.663482399Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:53:00.576908217Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"38.2µs","error_message":""}
+{"time":"2024-04-30T02:53:14.998242821Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:53:18.356249558Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"181.903µs","error_message":""}
+{"time":"2024-04-30T02:53:18.358361897Z","level":"INFO","msg":"send to to topic: "}
+{"time":"2024-04-30T02:54:29.769798207Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:54:29.771627333Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:54:34.067340768Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:54:38.802011592Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:54:42.68066086Z","level":"INFO","msg":"Publish message to topic: ",":topic":" message: ","!BADKEY":""}
+{"time":"2024-04-30T02:54:42.681052465Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"393.406µs","error_message":""}
+{"time":"2024-04-30T02:54:42.682034079Z","level":"INFO","msg":"send to to topic: "}
+{"time":"2024-04-30T02:55:13.933698635Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:55:13.936126765Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:55:19.323442968Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:55:20.741895943Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:55:23.337196058Z","level":"INFO","msg":"Received publish request for topic: :topic, message: "}
+{"time":"2024-04-30T02:55:23.337542062Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"3.134237ms","error_message":""}
+{"time":"2024-04-30T02:55:23.338695876Z","level":"INFO","msg":"send to to topic: "}
+{"time":"2024-04-30T02:56:01.578396917Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.836219ms","error_message":""}
+{"time":"2024-04-30T02:56:01.615403491Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js.map","status_code":200,"body_size":1540291,"latency":"15.662158ms","error_message":""}
+{"time":"2024-04-30T02:56:01.631429653Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js.map","status_code":200,"body_size":493648,"latency":"2.699528ms","error_message":""}
+{"time":"2024-04-30T02:56:01.809490259Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css.map","status_code":200,"body_size":251179,"latency":"1.669117ms","error_message":""}
+{"time":"2024-04-30T02:56:05.91146855Z","level":"INFO","msg":"Received publish request for topic: :topic, message: "}
+{"time":"2024-04-30T02:56:05.911930755Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"469.005µs","error_message":""}
+{"time":"2024-04-30T02:56:05.912837664Z","level":"INFO","msg":"send to to topic: "}
+{"time":"2024-04-30T02:56:50.610629299Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:56:50.613476022Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:56:58.272631721Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:56:59.926205288Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3759,"latency":"970.308µs","error_message":""}
+{"time":"2024-04-30T02:56:59.98659906Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.446812ms","error_message":""}
+{"time":"2024-04-30T02:57:00.277291824Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.875214ms","error_message":""}
+{"time":"2024-04-30T02:57:00.329613832Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css.map","status_code":200,"body_size":251179,"latency":"1.534612ms","error_message":""}
+{"time":"2024-04-30T02:57:00.617300772Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"40.532816ms","error_message":""}
+{"time":"2024-04-30T02:57:00.977250574Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js.map","status_code":200,"body_size":1540291,"latency":"7.608259ms","error_message":""}
+{"time":"2024-04-30T02:57:01.027901368Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"93.601µs","error_message":""}
+{"time":"2024-04-30T02:57:01.03845505Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js.map","status_code":200,"body_size":493648,"latency":"23.13528ms","error_message":""}
+{"time":"2024-04-30T02:57:01.132524379Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":5856,"latency":"390.503µs","error_message":""}
+{"time":"2024-04-30T02:57:13.718410329Z","level":"INFO","msg":"new subcribe online: topic=topic"}
+{"time":"2024-04-30T02:57:23.205769102Z","level":"INFO","msg":"Received publish request for topic: topic, message: "}
+{"time":"2024-04-30T02:57:23.206206505Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/topic","status_code":200,"body_size":-1,"latency":"438.004µs","error_message":""}
+{"time":"2024-04-30T02:57:23.206586707Z","level":"INFO","msg":"send to to topic: "}
+{"time":"2024-04-30T02:59:49.901930982Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:59:49.904377488Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:59:56.674700733Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:59:58.24630462Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3759,"latency":"1.281203ms","error_message":""}
+{"time":"2024-04-30T02:59:58.325392588Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.609603ms","error_message":""}
+{"time":"2024-04-30T02:59:58.592369556Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.940704ms","error_message":""}
+{"time":"2024-04-30T02:59:58.681122146Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css.map","status_code":200,"body_size":251179,"latency":"3.117006ms","error_message":""}
+{"time":"2024-04-30T02:59:58.855779017Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"4.50111ms","error_message":""}
+{"time":"2024-04-30T02:59:59.245219139Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js.map","status_code":200,"body_size":1540291,"latency":"10.963023ms","error_message":""}
+{"time":"2024-04-30T02:59:59.271646895Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"96.2µs","error_message":""}
+{"time":"2024-04-30T02:59:59.300124555Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js.map","status_code":200,"body_size":493648,"latency":"26.434356ms","error_message":""}
+{"time":"2024-04-30T02:59:59.39299955Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":6392,"latency":"626.302µs","error_message":""}
+{"time":"2024-04-30T03:01:08.857228064Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T03:01:08.863628767Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T03:01:16.549403303Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T03:01:19.646268523Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3759,"latency":"993.8µs","error_message":""}
+{"time":"2024-04-30T03:01:19.688991428Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"8.9191ms","error_message":""}
+{"time":"2024-04-30T03:01:19.694038229Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.1447ms","error_message":""}
+{"time":"2024-04-30T03:01:19.781387041Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui.css.map","status_code":200,"body_size":251179,"latency":"910.4µs","error_message":""}
+{"time":"2024-04-30T03:01:20.050985276Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"67.830607ms","error_message":""}
+{"time":"2024-04-30T03:01:20.328244907Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-bundle.js.map","status_code":200,"body_size":1540291,"latency":"6.0657ms","error_message":""}
+{"time":"2024-04-30T03:01:20.35875821Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"97.5µs","error_message":""}
+{"time":"2024-04-30T03:01:20.399032615Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/swagger-ui-standalone-preset.js.map","status_code":200,"body_size":493648,"latency":"3.0846ms","error_message":""}
+{"time":"2024-04-30T03:01:20.466000523Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":5791,"latency":"857.8µs","error_message":""}
+{"time":"2024-04-30T03:01:28.184045933Z","level":"INFO","msg":"Received publish request for topic: topic, message: abc"}
+{"time":"2024-04-30T03:01:28.184422732Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/topic?message=abc","status_code":200,"body_size":-1,"latency":"376.3µs","error_message":""}
+{"time":"2024-04-30T03:02:15.814153765Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T03:02:15.818147561Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T03:02:21.04084448Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T03:02:31.487367767Z","level":"INFO","msg":"new subcribe online: topic=topic "}
+{"time":"2024-04-30T03:02:34.804056458Z","level":"INFO","msg":"Received publish request for topic: topic, message: abc"}
+{"time":"2024-04-30T03:02:34.804413558Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/topic?message=abc","status_code":200,"body_size":-1,"latency":"364µs","error_message":""}
+{"time":"2024-04-30T03:02:34.805104457Z","level":"INFO","msg":"send to to topic: "}
+{"time":"2024-04-30T03:02:39.34276196Z","level":"INFO","msg":"Received publish request for topic: topic, message: def"}
+{"time":"2024-04-30T03:02:39.343226059Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"127.0.0.1","method":"POST","path":"/api/v1/publish/topic?message=def","status_code":200,"body_size":-1,"latency":"530.399µs","error_message":""}
+{"time":"2024-04-30T03:02:39.343965558Z","level":"INFO","msg":"send to to topic: "}
+{"time":"2024-04-30T03:02:54.227913489Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T03:02:54.229694385Z","level":"INFO","msg":"Server exiting"}

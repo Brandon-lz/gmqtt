@@ -38,7 +38,7 @@ func RegisterRoutes(router *gin.RouterGroup) {
 // @Success 200 {string} string "Hello, World!"
 func SubscribeHandler(c *gin.Context) {
 	topic := c.Param("topic")
-	slog.Info(fmt.Sprintf("new subcribe online: topic=%s", topic))
+	slog.Info(fmt.Sprintf("new subcribe online: topic=%s ", topic))
 	Subscribe(c, topic)
 }
 

@@ -1,9 +1,11 @@
 package publishrouter
 
-
 import (
+	"fmt"
+	"log/slog"
 
 	pubsub "github.com/Brandon-lz/gmqtt/pub_sub"
+	gopubsub "github.com/Brandon-lz/go-pubsub"
 	"github.com/gin-gonic/gin"
 )
 
@@ -13,15 +15,14 @@ import (
 // @Description Publish a message to a topic
 // @Produce json
 // @Param topic path string true "Topic name"
-// @Param message body string true "Message to publish"
+// @Param message query string true "Message to publish"
 // @Success 200 {object} core.ApiOKResponse
-// @Router /api/v1/publish/:topic [post]
+// @Router /api/v1/publish/{topic} [post]
 func PublishHandler(c *gin.Context) {
-	// TODO: Implement Machinning Center Data In Router
 	topic := c.Param("topic")
-
-	pubsub.Agent.Publish(topic,"abc")
-
+	message := c.Query("message")
+	slog.Info(fmt.Sprintf("Received publish request for topic: %s, message: %s", topic, message))
+	pubsub.Agent.Publish(topic,gopubsub.MsgT(message))
 }
 
 

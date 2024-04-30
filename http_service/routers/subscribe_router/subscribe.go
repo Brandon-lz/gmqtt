@@ -1,6 +1,7 @@
 package subscriberouter
 
 import (
+	"log/slog"
 	"net/http"
 
 	pubsub "github.com/Brandon-lz/gmqtt/pub_sub"
@@ -31,6 +32,7 @@ func Subscribe(c *gin.Context, topic string) {
 		if err != nil {
 			return
 		}
+		// Send data to front-end
+		slog.Info("send to to topic: ")
 	}
-
 }
