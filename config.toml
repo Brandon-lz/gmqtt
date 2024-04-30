@@ -1,0 +1,5 @@
+[service]
+port = 8060
+
+[logging]
+level = "info"

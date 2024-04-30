@@ -1,0 +1,50 @@
+{"time":"2024-04-30T02:22:29.624939142Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:22:36.251769643Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:22:36.252021703Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:22:47.762545223Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:24:30.341485821Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:24:30.341647541Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:24:46.221555183Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:24:55.187956344Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/","status_code":200,"body_size":25,"latency":"42.4µs","error_message":""}
+{"time":"2024-04-30T02:24:55.608887882Z","level":"ERROR","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/favicon.ico","status_code":404,"body_size":-1,"latency":"500ns","error_message":""}
+{"time":"2024-04-30T02:25:15.874497444Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3759,"latency":"217.689µs","error_message":""}
+{"time":"2024-04-30T02:25:16.276994823Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.33332ms","error_message":""}
+{"time":"2024-04-30T02:25:16.277526353Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.80854ms","error_message":""}
+{"time":"2024-04-30T02:25:16.277835033Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"2.13188ms","error_message":""}
+{"time":"2024-04-30T02:25:21.998827127Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"38.85µs","error_message":""}
+{"time":"2024-04-30T02:26:15.450900162Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:26:15.451310052Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:26:21.296802009Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:26:24.227926612Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3806,"latency":"257.36µs","error_message":""}
+{"time":"2024-04-30T02:26:24.579015157Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.03151ms","error_message":""}
+{"time":"2024-04-30T02:26:24.580087087Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.56142ms","error_message":""}
+{"time":"2024-04-30T02:26:24.580236787Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"2.273689ms","error_message":""}
+{"time":"2024-04-30T02:26:28.811981947Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"53.41µs","error_message":""}
+{"time":"2024-04-30T02:26:29.135923725Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/favicon-32x32.png","status_code":304,"body_size":-1,"latency":"81.58µs","error_message":""}
+{"time":"2024-04-30T02:26:38.538090892Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:26:38.538605632Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:26:40.470091086Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:26:41.662565805Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3797,"latency":"219.56µs","error_message":""}
+{"time":"2024-04-30T02:26:41.979323943Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"1.04687ms","error_message":""}
+{"time":"2024-04-30T02:26:41.979644563Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.27074ms","error_message":""}
+{"time":"2024-04-30T02:26:41.981188762Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"2.656209ms","error_message":""}
+{"time":"2024-04-30T02:26:43.839125794Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3797,"latency":"130.37µs","error_message":""}
+{"time":"2024-04-30T02:26:47.875514785Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui.css","status_code":304,"body_size":-1,"latency":"25.38µs","error_message":""}
+{"time":"2024-04-30T02:26:47.875519675Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":304,"body_size":-1,"latency":"26.74µs","error_message":""}
+{"time":"2024-04-30T02:26:47.875545415Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":304,"body_size":-1,"latency":"22.57µs","error_message":""}
+{"time":"2024-04-30T02:26:48.21901612Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"49.55µs","error_message":""}
+{"time":"2024-04-30T02:26:48.538160127Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":5659,"latency":"222.16µs","error_message":""}
+{"time":"2024-04-30T02:27:24.176861706Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"1.26µs","error_message":""}
+{"time":"2024-04-30T02:27:28.593822068Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"1.2µs","error_message":""}
+{"time":"2024-04-30T02:27:56.123778726Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"POST","path":"/api/v1/publish/:topic","status_code":200,"body_size":-1,"latency":"1.37µs","error_message":""}
+{"time":"2024-04-30T02:34:54.311221797Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:34:54.312068767Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-04-30T02:34:59.483777407Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-04-30T02:35:31.133131957Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/index.html","status_code":200,"body_size":3797,"latency":"309.339µs","error_message":""}
+{"time":"2024-04-30T02:35:31.457788115Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui.css","status_code":200,"body_size":144966,"latency":"856.2µs","error_message":""}
+{"time":"2024-04-30T02:35:31.576946273Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-standalone-preset.js","status_code":200,"body_size":312217,"latency":"1.21507ms","error_message":""}
+{"time":"2024-04-30T02:35:31.577233793Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/swagger-ui-bundle.js","status_code":200,"body_size":1061579,"latency":"1.55765ms","error_message":""}
+{"time":"2024-04-30T02:35:32.841667396Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/favicon-32x32.png","status_code":200,"body_size":628,"latency":"42.06µs","error_message":""}
+{"time":"2024-04-30T02:35:33.174075512Z","level":"INFO","msg":"http_request","trace_id":"","user_id":"","client_id":"188.253.4.202","method":"GET","path":"/docs/doc.json","status_code":200,"body_size":5467,"latency":"201.76µs","error_message":""}
+{"time":"2024-04-30T02:36:20.97527525Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-04-30T02:36:20.97576352Z","level":"INFO","msg":"Server exiting"}

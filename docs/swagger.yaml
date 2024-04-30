@@ -1,0 +1,126 @@
+definitions:
+  core.ApiOKResponse:
+    properties:
+      code:
+        description: "200"
+        type: integer
+      data:
+        type: string
+      message:
+        description: '"success"'
+        type: string
+    type: object
+  routers.ApiResponse:
+    properties:
+      message:
+        example: 欢迎使用OPC-UA OpenAPI
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/:
+    get:
+      consumes:
+      - application/json
+      description: 根路由
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 欢迎使用OPC-UA OpenAPI
+          schema:
+            $ref: '#/definitions/routers.ApiResponse'
+      summary: 根路由
+      tags:
+      - default
+  /api/v1/ping:
+    get:
+      consumes:
+      - application/json
+      description: ping 路由
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: pong
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: ping 路由
+      tags:
+      - default
+  /api/v1/publish/:topic:
+    post:
+      description: Publish a message to a topic
+      parameters:
+      - description: Topic name
+        in: path
+        name: topic
+        required: true
+        type: string
+      - description: Message to publish
+        in: body
+        name: message
+        required: true
+        schema:
+          type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/core.ApiOKResponse'
+      summary: Publish a message to a topic
+      tags:
+      - Publish
+  /api/v1/subscribe/{topic}:
+    get:
+      consumes:
+      - application/json
+      description: |-
+        # 数据订阅接口
+        ## 使用方法
+        ```javascript
+        var ws = new WebSocket("ws://10.30.24.115:8060/api/v1/data-out/topic");
+
+        ws.onmessage = function(event) {
+        console.log(event.data);
+        };
+
+        ws.onopen = function() {
+        console.log("Connection established");
+        };
+
+        ws.onclose = function() {
+        console.log("Connection closed");
+        };
+        ```
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Hello, World!
+          schema:
+            type: string
+      summary: Send To Front End by websocket
+      tags:
+      - Data Out
+  /health:
+    get:
+      consumes:
+      - application/json
+      description: healthCheck 路由
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: pong
+          schema:
+            type: string
+      summary: healthCheck 路由
+      tags:
+      - default
+swagger: "2.0"
