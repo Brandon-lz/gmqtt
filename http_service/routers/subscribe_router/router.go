@@ -17,7 +17,7 @@ func RegisterRoutes(router *gin.RouterGroup) {
 // @Description # 数据订阅接口
 // @Description ## 使用方法
 // @Description ```javascript
-// @Description var ws = new WebSocket("ws://127.0.01:8060/api/v1/subscribe/topic");
+// @Description var ws = new WebSocket("ws://127.0.0.1:8060/api/v1/subscribe/topic");
 // @Description
 // @Description ws.onmessage = function(event) {
 // @Description   console.log(event.data);
@@ -31,10 +31,11 @@ func RegisterRoutes(router *gin.RouterGroup) {
 // @Description   console.log("Connection closed");
 // @Description };
 // @Description ```
-// @Tags Data Out
+// @Tags Subscribe
 // @Accept json
 // @Produce json
 // @Router /api/v1/subscribe/{topic} [get]
+// @Param topic path string true "topic name"
 // @Success 200 {string} string "Hello, World!"
 func SubscribeHandler(c *gin.Context) {
 	topic := c.Param("topic")

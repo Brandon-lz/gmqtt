@@ -54,7 +54,7 @@ func Start() {
 
 	url := ginSwagger.URL(fmt.Sprintf("http://localhost:%d/docs/doc.json",config.Config.Service.Port)) // The URL pointing to API definition
 
-	// swagger:  http://localhost:8080/docs/index.html
+	// swagger:  http://localhost:8060/docs/index.html
 	router.GET("/docs/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
 
 	v1 := router.Group("/api/v1")
