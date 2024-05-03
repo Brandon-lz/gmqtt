@@ -1,5 +1,7 @@
 github.com/Brandon-lz/go-pubsub v1.0.0 h1:X8tcqT1bI6znjwiTFg+ca6I/8WhADsxdBwxPzfb6+SE=
 github.com/Brandon-lz/go-pubsub v1.0.0/go.mod h1:FMG3xzE4NegMKygty/IeMTq9XElSNx8U9EFpHtQOIEs=
+github.com/Brandon-lz/go-pubsub v1.0.1 h1:tZtoUpqrTTbWvbElmoazP2MaSQVBZQhNBRfcKTiaMgo=
+github.com/Brandon-lz/go-pubsub v1.0.1/go.mod h1:FMG3xzE4NegMKygty/IeMTq9XElSNx8U9EFpHtQOIEs=
 github.com/BurntSushi/toml v1.3.2 h1:o7IhLm0Msx3BaB+n3Ag7L8EVlByGnpq14C4YWiu/gL8=
 github.com/BurntSushi/toml v1.3.2/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
 github.com/KyleBanks/depth v1.2.1 h1:5h8fQADFrWtarTdtDudMmGsC7GPbOAu6RVB3ffsVFHc=

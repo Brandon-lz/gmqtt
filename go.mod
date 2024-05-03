@@ -3,7 +3,7 @@ module github.com/Brandon-lz/gmqtt
 go 1.22
 
 require (
-	github.com/Brandon-lz/go-pubsub v1.0.0
+	github.com/Brandon-lz/go-pubsub v1.0.1
 	github.com/BurntSushi/toml v1.3.2
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-errors/errors v1.5.1

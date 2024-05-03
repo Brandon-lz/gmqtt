@@ -175,3 +175,6 @@
 {"time":"2024-04-30T03:02:39.343965558Z","level":"INFO","msg":"send to to topic: "}
 {"time":"2024-04-30T03:02:54.227913489Z","level":"INFO","msg":"Shutdown Server ..."}
 {"time":"2024-04-30T03:02:54.229694385Z","level":"INFO","msg":"Server exiting"}
+{"time":"2024-05-03T03:34:11.591033998Z","level":"INFO","msg":"Start Server At Port: 8060"}
+{"time":"2024-05-03T03:37:20.464158033Z","level":"INFO","msg":"Shutdown Server ..."}
+{"time":"2024-05-03T03:37:20.464442673Z","level":"INFO","msg":"Server exiting"}
